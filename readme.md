@@ -74,7 +74,7 @@ Then:
 
 ### For Games Central
 
-To run Games Central website, you'll first need to install [nodejs](https://nodejs.org/en) and [yarn](https://yarnpkg.com) then:
+To run Games Central website, you'll first need to install [nodejs](https://nodejs.org/en) then:
 
 ```bash
 # run backend
