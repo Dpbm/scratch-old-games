@@ -17,5 +17,6 @@
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules server.ts",
     "start": "yarn tsc && node server.js"
-  }
+  },
+  "packageManager": "yarn@4.6.0"
 }
