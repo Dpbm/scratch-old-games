@@ -1,0 +1,156 @@
+#container-data{
+    display: flex;
+    flex-direction: row;
+}
+
+section, aside{
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 40px;
+}
+
+section{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section img{
+    width: 700px;
+    height: 600px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+}
+
+#container-play{
+    font-size: 24px;
+    font-weight: bold;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#play{
+    color: #fff;
+}
+
+#back-play p{
+    color: #fff;
+}
+
+#back-play{
+    margin-top: 10px;
+    border-radius: 24px;
+    height:  50px;
+    width: 110px;
+
+    background-color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+aside{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#back-play:hover{
+    cursor:pointer;
+    opacity:0.6;
+    -webkit-box-shadow: 5px 5px 28px 5px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 28px 5px rgba(0,0,0,0.3);
+}
+
+
+#container-play{
+    width: 100%;
+}
+
+
+#container-title{
+    
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+ 
+    
+}
+
+#container-text{
+    width: 100%;
+    text-align: center;
+
+}
+
+aside #title{
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+aside #text{
+    font-size: 30px;
+
+}
+
+
+@media (max-width: 1412px){
+
+    section{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    aside #title{
+        display: none;
+    }
+
+    aside{ 
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    section img{
+        height: 650px;
+    }
+    #container-data{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 720px){
+    section img{
+        width: calc(100% + 290px);
+        height: 94%;
+    }
+}
+
+@media (max-width: 575px){
+
+    section{
+        width: 100%;
+        margin-bottom: -40px;
+        margin-top: -45px;
+    }
+    section img{
+        width: 96%;
+        /* height: calc(60% + 100px); */
+        height: 55vh;
+    }
+}

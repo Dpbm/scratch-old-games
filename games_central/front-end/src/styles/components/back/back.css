@@ -1,0 +1,48 @@
+#container-header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#container-title{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: -15px;
+}
+
+#container-arrow{
+
+    /* margin-left: 30px; */
+    justify-content: flex-start;
+
+} 
+
+#back{
+    /* margin-left: 30px; */
+    margin-top: 10px;
+}
+
+
+#back:hover{
+    opacity:0.4;
+    cursor: pointer;
+}
+
+@media (max-width: 1412px){
+    #container-header{
+        width: 100%;
+    }
+    #title{
+        display: flex;
+    }
+}
