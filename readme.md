@@ -24,7 +24,7 @@ To make it different from `Pacman`, green areas were added to increase your spee
 ![CS50 project game](./assets/take-the-coins-game.png)
 ![CS50 project credits](./assets/take-the-coins-credits.png)
 
-The game has as many bugs as Assassin's Creed Unity right after its release, but I've tried my best to beat Scratch.
+The game has as many bugs as Assassin's Creed Unity right after its release, but I'd tried my best to beat Scratch.
 
 All the sprites were done using [pixilart](https://www.pixilart.com/) and the sounds were taken from [sketchylogic](https://opengameart.org/users/sketchylogic) at [opengameart](https://opengameart.org/). You can find these files at [cs50-2020-pset0/](./cs50-2020-pset0/).
 
